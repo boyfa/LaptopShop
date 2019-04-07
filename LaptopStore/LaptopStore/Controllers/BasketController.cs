@@ -6,20 +6,12 @@ using System.Web.Mvc;
 
 namespace LaptopStore.Controllers
 {
-    public class LaptopController : Controller
+    public class BasketController : Controller
     {
-        // GET: Laptop
+        // GET: Basket
         public ActionResult Index()
         {
             return View();
         }
-
-        //
-=======
-
-        public ActionResult Laptop()
-        {
-            return View();
-        }
-    }//
+    }
 }
