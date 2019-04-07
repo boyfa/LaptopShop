@@ -6,18 +6,22 @@ using System.Web.Mvc;
 
 namespace LaptopStore.Controllers
 {
-    public class LaptopController : Controller
+    public class AdminController : Controller
     {
-        // GET: Laptop
+        // GET: Admin
         public ActionResult Index()
         {
             return View();
         }
-
-        //
-=======
-
         public ActionResult Laptop()
+        {
+            return View();
+        }
+        public ActionResult Chitiet()
+        {
+            return View();
+        }
+        public ActionResult Timkiem() 
         {
             return View();
         }
