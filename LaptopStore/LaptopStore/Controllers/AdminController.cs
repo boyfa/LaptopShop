@@ -21,7 +21,7 @@ namespace LaptopStore.Controllers
         {
             return View();
         }
-        public ActionResult Timkiem()
+        public ActionResult Timkiem() 
         {
             return View();
         }
