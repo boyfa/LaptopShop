@@ -25,5 +25,9 @@ namespace LaptopStore.Controllers
         {
             return View();
         }
+        public ActionResult sanpham()
+        { 
+            return View();
+        }
     }
 }
