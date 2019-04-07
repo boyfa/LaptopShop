@@ -17,5 +17,9 @@ namespace LaptopStore.Controllers
         {
             return View();
         }
+        public ActionResult Chitiet()
+        {
+            return View();
+        }
     }
 }
